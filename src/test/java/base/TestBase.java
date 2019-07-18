@@ -49,7 +49,7 @@ public class TestBase {
 				
 				ChromeOptions chromeOptions= new ChromeOptions();
 				
-				 System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+ "/src/test/resources/executable/chromedriver");
+				 System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+ "/src/test/resources/executable/chromedriver-2");
 				 driver = new ChromeDriver(chromeOptions);
 				 
 				 
